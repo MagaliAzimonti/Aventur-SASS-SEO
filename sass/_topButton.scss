@@ -1,0 +1,16 @@
+/* TOP BUTTON */
+
+.home__top--button {
+background-color: $mainButtonColor;
+height: 2.5rem;
+width: 2.5rem;
+display: flex;
+font-size: 1.5rem;
+border-radius: 50%;
+box-shadow: $mainButtonShadow;
+justify-content: center;
+align-items: center;
+position: fixed;
+bottom: 2rem;
+right: 1rem;
+}

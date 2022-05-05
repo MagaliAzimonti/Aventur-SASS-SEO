@@ -1,0 +1,21 @@
+/* ESTILOS CONTACT */
+
+.main__contact {
+    p {
+        font-size: $pfontsizemd;
+    }
+    .contact__title {
+        padding-top: 70px;
+    }
+    textarea {
+        resize: none;
+    }
+    .image__contact {
+        margin: 15px 0px;
+
+        @include media-up(md){
+            width: 500px;
+            margin: 30px;
+        }
+    }
+}
